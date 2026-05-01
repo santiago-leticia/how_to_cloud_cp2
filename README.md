@@ -1,5 +1,15 @@
 # how_to_cloud_cp2
 
+- Feito por: Leticia Santiago e Silva
+- RM: 565799
+
+<h2>Tecnologia: </h2>
+
+- Java
+- Docker
+- Mave
+- MySQL 8
+
 <h2>Primeiro passo abaixar o git dentro de sua vm</h2>
 
 - SQL
@@ -55,6 +65,41 @@ bash -c "mvn clean package -DskipTests && java -jar target/*.jar"
 
 
 # Na aplicação:
+
+<h2>Dica doque voce pode fazer na aplicação </h2>
+
+<h3>SQL</h3>
+- Para entrar na sql
+Exemplo:
+
+docker exec -it sqlMusica mysql-u leticia -p
+apos disso adicionar a sua senha: 
+exemplo 2345
+
+<h3>Exemplos de comandos</h3>
+SELECT * FROM musica;
+
+UPDATE musica SET titulo='Tempo Pedido' WHERE id=1;
+
+INSERT INTO musica (fk_artista,titulo,data_lancamento,duracao,genero) VALUES(1,'Bad Romance','2009-10-19,'Pop');
+
+
+<h3>Java</h3>
+
+- No postman
+
+buscar por id: 
+http://localhost:8080/musicas/5
+
+Paginação:
+http://localhost:8080/musicas/paginadas?page=0&size=2
+
+delete:
+http://localhost:8080/musicas/5
+
+
+
+
 
 
 
