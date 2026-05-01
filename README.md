@@ -1,6 +1,7 @@
 # how_to_cloud_cp2
 
 <h2>Primeiro passo abaixar o git dentro de sua vm</h2>
+
 - SQL
 git clone https://github.com/santiago-leticia/sqlMusica.git
 
