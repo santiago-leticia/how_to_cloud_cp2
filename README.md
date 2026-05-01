@@ -3,6 +3,7 @@
 <h2>Primeiro passo abaixar o git dentro de sua vm</h2>
 - SQL
 git clone https://github.com/santiago-leticia/sqlMusica.git
+
 - java
  git clone https://github.com/santiago-leticia/projeto_musica_sql.git
  
